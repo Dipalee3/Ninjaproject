@@ -68,7 +68,7 @@ public class MyListeners implements ITestListener {
 	public void onTestSkipped(ITestResult result) {
 		
 		extentTest.log(Status.INFO,result.getThrowable());
-		extentTest.log(Status.SKIP, result.getName()+" got skipped");
+		extentTest.log(Status.SKIP, result.getName()+" got achiebv");
 		
 	}
 
