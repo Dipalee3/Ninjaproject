@@ -22,7 +22,7 @@ public class Base {
 	public Base() {
 		
 		prop = new Properties();
-		File propFile = new File(System.getProperty("user.dir")+"\\src\\main\\jninja\\qa\\config\\config.properties");
+		File propFile = new File(System.getProperty("user.dir")+"\\srninja\\qa\\config\\config.properties");
 		
 		dataProp = new Properties();
 		File dataPropFile = new File(System.getProperty("user.dir")+"\\src\\mialsninja\\qa\\testdata\\testdata.properties");
